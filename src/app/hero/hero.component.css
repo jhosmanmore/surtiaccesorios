@@ -1,0 +1,61 @@
+/* Hero */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  min-height: 400px;
+  max-height: 500px;
+  position: relative;
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  color: #fff;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url("src\assets\images\fon1.png");
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 95%, 0 85%);
+  z-index: -1;
+}
+
+.hero_container {
+  max-width: 800px;
+  display: grid;
+  grid-auto-rows: max-content;
+  align-content: center;
+  gap: 1em;
+  text-align: center;
+  margin-top: 170px;
+  padding-bottom: 100px;
+  overflow: visible;
+}
+
+.hero_title {
+  font-size: 3rem;
+}
+
+.hero_parrafo {
+  margin-bottom: 20px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #184b68;
+  justify-self: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 30px;
+  border-radius: 32px;
+}
+
+@media (max-width: 450px) {
+  .hero_title {
+      font-size: 1.5rem;
+  }
+}

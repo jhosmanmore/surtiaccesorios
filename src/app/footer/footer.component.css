@@ -1,0 +1,39 @@
+/* Footer */
+
+.footer {
+  background-color: #261C51;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 30px;
+}
+
+.footer_title {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer_copy{
+  --padding-container: 30px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.footer_icons{
+  margin-bottom: 10px;
+}
+
+.footer_img{
+  width: 30px;
+}
+
+.footer_copyright{
+  font-weight: 300;
+}
