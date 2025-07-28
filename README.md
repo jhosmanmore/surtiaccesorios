@@ -1,27 +1,32 @@
-# ProyectoAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+# SurtiAccesorios 🛍️
 
-## Development server
+SurtiAccesorios es una página web sencilla desarrollada con **Angular** como parte de un proyecto personal, a modo de práctica en desarrollo frontend. Esta aplicación simula la interfaz de una tienda de accesorios, permitiendo al usuario visualizar productos de forma clara, ordenada y responsiva.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Características
 
-## Code scaffolding
+- Desarrollo 100% en Angular
+- Diseño responsive adaptado a dispositivos móviles y de escritorio
+- Navegación por secciones (inicio, productos, contacto)
+- Componentes reutilizables
+- Uso de Angular Routing para navegación entre vistas
+- Enfoque escalable sin backend implementado.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🧪 Propósito del Proyecto
 
-## Build
+Este proyecto fue desarrollado con fines educativos y prácticos, como ejercicio para fortalecer mis habilidades en Angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Tecnologías utilizadas
 
-## Running unit tests
+- Angular
+- TypeScript
+- HTML5
+- CSS
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📸 Capturas
 
-## Running end-to-end tests
+<img width="797" height="519" alt="image" src="https://github.com/user-attachments/assets/15303e7f-3a62-4ea5-aefb-18b25c392d38" />
+<img width="797" height="524" alt="image" src="https://github.com/user-attachments/assets/a24562b7-2c7b-48bd-a3bf-09c941eb2950" />
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### Desarrollado por: Jhosman Moreno
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
